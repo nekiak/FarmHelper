@@ -190,7 +190,7 @@ public class Autosell {
     private static boolean shouldSell(ItemStack itemStack) {
         String name = net.minecraft.util.StringUtils.stripControlCodes(itemStack.getDisplayName());
         return (name.startsWith("Brown Mushroom") || name.startsWith("Enchanted Brown Mushroom") || name.startsWith("Brown Mushroom Block") || name.startsWith("Brown Enchanted Mushroom Block") ||
-            name.startsWith("Red Mushroom") || name.startsWith("Enchanted Red Mushroom") || name.startsWith("Red Mushroom Block") || name.startsWith("Red Enchanted Mushroom Block") ||
+            name.startsWith("Red Mushroom") || name.startsWith("Carrot") || name.startsWith("Enchanted Carrot") || name.startsWith("Enchanted Red Mushroom") || name.startsWith("Red Mushroom Block") || name.startsWith("Red Enchanted Mushroom Block") ||
             name.startsWith("Nether Wart") || name.startsWith("Enchanted Nether Wart") || name.startsWith("Mutant Nether Wart") ||
             name.startsWith("Sugar Cane") || name.startsWith("Enchanted Sugar") || name.startsWith("Enchanted Sugar Cane") ||
             name.startsWith("Stone")) && !name.contains("Hoe");
